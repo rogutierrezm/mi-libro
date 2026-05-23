@@ -1,0 +1,10 @@
+# Capítulo 1: Algunos códigos en LaTeX
+
+afsd
+asfd
+
+Escrito con laateex
+$$
+\LaTeX
+$$
+Latex en línea $\LaTeX$

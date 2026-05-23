@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "mi-libro",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "01-introduccion.html",
+    "href": "01-introduccion.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\nSee Abt et al. (2025) para saber sobre blablablblabal\nPor acá tengo algún otro archivo Kim et al. (2025) para\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nAbt, Martin, Katharina Loibl, Timo Leuders, Wim Van Dooren, and Frank Reinhold. 2025. “Understanding Student Errors in Comparing Data Sets with Boxplots.” Educational Studies in Mathematics 120 (1): 169–93. https://doi.org/10.1007/s10649-025-10387-z.\n\n\nKim, Jeonghyun, Lingzi Hong, and Ayoung Yoon. 2025. “University Students’ Self-Assessment of Data Literacy: A Validation Study.” PLoS One 20 (4): e0322104. https://doi.org/10.1371/journal.pone.0322104.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "02-capitulo-uno.html",
+    "href": "02-capitulo-uno.html",
+    "title": "2  Capítulo 1: Algunos códigos en LaTeX",
+    "section": "",
+    "text": "afsd asfd\nEscrito con laateex \\[\n\\LaTeX\n\\] Latex en línea \\(\\LaTeX\\)",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Capítulo 1: Algunos códigos en LaTeX</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Abt, Martin, Katharina Loibl, Timo Leuders, Wim Van Dooren, and Frank\nReinhold. 2025. “Understanding Student Errors in Comparing Data\nSets with Boxplots.” Educational Studies in Mathematics\n120 (1): 169–93. https://doi.org/10.1007/s10649-025-10387-z.\n\n\nKim, Jeonghyun, Lingzi Hong, and Ayoung Yoon. 2025. “University\nStudents’ Self-Assessment of Data Literacy: A Validation\nStudy.” PLoS One 20 (4): e0322104. https://doi.org/10.1371/journal.pone.0322104.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]

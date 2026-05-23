@@ -1,0 +1,27 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "mi-libro"
+  author: "Rodrigo Gutiérrez"
+  date: "23/5/2026"
+  chapters:
+    - index.qmd
+    - 01-introduccion.qmd
+    - 02-capitulo-uno.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  #pdf:
+   # documentclass: scrreprt
+
+editor: visual
+
