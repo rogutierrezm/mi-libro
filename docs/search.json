@@ -12,11 +12,11 @@
   {
     "objectID": "01-introduccion.html",
     "href": "01-introduccion.html",
-    "title": "1  Introduction",
+    "title": "1  Introducción",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\nSee Abt et al. (2025) para saber sobre blablablblabal\nPor acá tengo algún otro archivo Kim et al. (2025) para\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nAbt, Martin, Katharina Loibl, Timo Leuders, Wim Van Dooren, and Frank Reinhold. 2025. “Understanding Student Errors in Comparing Data Sets with Boxplots.” Educational Studies in Mathematics 120 (1): 169–93. https://doi.org/10.1007/s10649-025-10387-z.\n\n\nKim, Jeonghyun, Lingzi Hong, and Ayoung Yoon. 2025. “University Students’ Self-Assessment of Data Literacy: A Validation Study.” PLoS One 20 (4): e0322104. https://doi.org/10.1371/journal.pone.0322104.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción</span>"
     ]
   },
   {
