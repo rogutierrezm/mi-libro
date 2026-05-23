@@ -24,7 +24,7 @@
     "href": "02-capitulo-uno.html",
     "title": "2  Capítulo 1: Algunos códigos en LaTeX",
     "section": "",
-    "text": "afsd asfd\nEscrito con laateex \\[\n\\LaTeX\n\\] Latex en línea \\(\\LaTeX\\)",
+    "text": "afsd asfd\nEscrito con laateex \\[\\LaTeX\\] Latex en línea \\(\\LaTeX\\)",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Capítulo 1: Algunos códigos en LaTeX</span>"
     ]
