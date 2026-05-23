@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: docs
+  # output-dir: docs
 
 book:
   title: "mi-libro"
@@ -17,8 +17,13 @@ bibliography: references.bib
 
 format:
   html:
+    respect-user-color-scheme: true
     theme:
+      light:
       - cosmo
+      - brand
+      dark:
+      - darkly
       - brand
   #pdf:
    # documentclass: scrreprt
