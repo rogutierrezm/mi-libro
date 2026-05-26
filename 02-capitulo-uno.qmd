@@ -5,3 +5,5 @@ Insertar una cita @kim2025, blablabla
 o
 
 cita de la literatura [@kim2025]
+
+@wang2025 o [@wang2025]
