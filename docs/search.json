@@ -24,7 +24,7 @@
     "href": "02-capitulo-uno.html",
     "title": "2  Capítulo 1: Aprendiendo referencias",
     "section": "",
-    "text": "Insertar una cita Kim et al. (2025), blablabla\no\ncita de la literatura (Kim et al., 2025)\n\n\n\n\nKim, J., Hong, L., & Yoon, A. (2025). University students’ self-assessment of data literacy: A validation study. PLoS One, 20(4), e0322104. https://doi.org/10.1371/journal.pone.0322104",
+    "text": "Insertar una cita Kim et al. (2025), blablabla\no\ncita de la literatura (Kim et al., 2025)\nWang et al. (2025) o (Wang et al., 2025)\n\n\n\n\nKim, J., Hong, L., & Yoon, A. (2025). University students’ self-assessment of data literacy: A validation study. PLoS One, 20(4), e0322104. https://doi.org/10.1371/journal.pone.0322104\n\n\nWang, Z., Chai, C.-S., Li, J., & Lee, V. W. Y. (2025). Assessment of AI ethical reflection: The development and validation of the AI ethical reflection scale (AIERS) for university students. International Journal of Educational Technology in Higher Education, 22(1), 19. https://doi.org/10.1186/s41239-025-00519-z",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Capítulo 1: Aprendiendo referencias</span>"
     ]
@@ -44,7 +44,7 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Abt, M., Loibl, K., Leuders, T., Van Dooren, W., & Reinhold, F.\n(2025). Understanding student errors in comparing data sets with\nboxplots. Educational Studies in Mathematics, 120(1),\n169–193. https://doi.org/10.1007/s10649-025-10387-z\n\n\nKim, J., Hong, L., & Yoon, A. (2025). University\nstudents’ self-assessment of data literacy: A validation\nstudy. PLoS One, 20(4), e0322104. https://doi.org/10.1371/journal.pone.0322104\n\n\nKnuth, D. E. (1984). Literate programming. Comput. J.,\n27(2), 97–111. https://doi.org/10.1093/comjnl/27.2.97",
+    "text": "Abt, M., Loibl, K., Leuders, T., Van Dooren, W., & Reinhold, F.\n(2025). Understanding student errors in comparing data sets with\nboxplots. Educational Studies in Mathematics, 120(1),\n169–193. https://doi.org/10.1007/s10649-025-10387-z\n\n\nKim, J., Hong, L., & Yoon, A. (2025). University\nstudents’ self-assessment of data literacy: A validation\nstudy. PLoS One, 20(4), e0322104. https://doi.org/10.1371/journal.pone.0322104\n\n\nKnuth, D. E. (1984). Literate programming. Comput. J.,\n27(2), 97–111. https://doi.org/10.1093/comjnl/27.2.97\n\n\nWang, Z., Chai, C.-S., Li, J., & Lee, V. W. Y. (2025). Assessment of\nAI ethical reflection: The development and validation of the AI ethical\nreflection scale (AIERS) for university students. International\nJournal of Educational Technology in Higher Education,\n22(1), 19. https://doi.org/10.1186/s41239-025-00519-z",
     "crumbs": [
       "References"
     ]
