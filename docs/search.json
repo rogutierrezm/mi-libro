@@ -14,7 +14,7 @@
     "href": "01-introduccion.html",
     "title": "1  Introducción",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\nSee Abt et al. (2025) para saber sobre blablablblabal\nPor acá tengo algún otro archivo Kim et al. (2025) para\n$$\n\\begin{align*}\nf(x) &= ax^2 + bx + c \\\\\n &= 2ax + b \\\\\n &= 2a\n\\end{align*}\n$$\n\\[\n\\begin{align*}\nf(x) &= ax^2 + bx + c \\\\\n&= 2ax + b \\\\\n&= 2a\n\\end{align*}\n\\]\n\n\n\n\nAbt, Martin, Katharina Loibl, Timo Leuders, Wim Van Dooren, and Frank Reinhold. 2025. “Understanding Student Errors in Comparing Data Sets with Boxplots.” Educational Studies in Mathematics 120 (1): 169–93. https://doi.org/10.1007/s10649-025-10387-z.\n\n\nKim, Jeonghyun, Lingzi Hong, and Ayoung Yoon. 2025. “University Students’ Self-Assessment of Data Literacy: A Validation Study.” PLoS One 20 (4): e0322104. https://doi.org/10.1371/journal.pone.0322104.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\nSee Abt et al. (2025) para saber sobre blablablblabal\nPor acá tengo algún otro archivo Kim et al. (2025) para\n$$\n\\begin{align*}\nf(x) &= ax^2 + bx + c \\\\\n &= 2ax + b \\\\\n &= 2a\n\\end{align*}\n$$\n\\[\n\\begin{align*}\nf(x) &= ax^2 + bx + c \\\\\n&= 2ax + b \\\\\n&= 2a\n\\end{align*}\n\\]\n\n\n\n\nAbt, M., Loibl, K., Leuders, T., Van Dooren, W., & Reinhold, F. (2025). Understanding student errors in comparing data sets with boxplots. Educational Studies in Mathematics, 120(1), 169–193. https://doi.org/10.1007/s10649-025-10387-z\n\n\nKim, J., Hong, L., & Yoon, A. (2025). University students’ self-assessment of data literacy: A validation study. PLoS One, 20(4), e0322104. https://doi.org/10.1371/journal.pone.0322104\n\n\nKnuth, D. E. (1984). Literate programming. Comput. J., 27(2), 97–111. https://doi.org/10.1093/comjnl/27.2.97",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción</span>"
     ]
@@ -22,11 +22,11 @@
   {
     "objectID": "02-capitulo-uno.html",
     "href": "02-capitulo-uno.html",
-    "title": "2  Capítulo 1: Algunos códigos en LaTeX",
+    "title": "2  Capítulo 1: Aprendiendo referencias",
     "section": "",
-    "text": "afsd asfd\nEscrito con laateex \\[\\LaTeX\\] Latex en línea \\(\\LaTeX\\)",
+    "text": "Insertar una cita Kim et al. (2025), blablabla\no\ncita de la literatura (Kim et al., 2025)\n\n\n\n\nKim, J., Hong, L., & Yoon, A. (2025). University students’ self-assessment of data literacy: A validation study. PLoS One, 20(4), e0322104. https://doi.org/10.1371/journal.pone.0322104",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Capítulo 1: Algunos códigos en LaTeX</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Capítulo 1: Aprendiendo referencias</span>"
     ]
   },
   {
@@ -44,7 +44,7 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Abt, Martin, Katharina Loibl, Timo Leuders, Wim Van Dooren, and Frank\nReinhold. 2025. “Understanding Student Errors in Comparing Data\nSets with Boxplots.” Educational Studies in Mathematics\n120 (1): 169–93. https://doi.org/10.1007/s10649-025-10387-z.\n\n\nKim, Jeonghyun, Lingzi Hong, and Ayoung Yoon. 2025. “University\nStudents’ Self-Assessment of Data Literacy: A Validation\nStudy.” PLoS One 20 (4): e0322104. https://doi.org/10.1371/journal.pone.0322104.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "Abt, M., Loibl, K., Leuders, T., Van Dooren, W., & Reinhold, F.\n(2025). Understanding student errors in comparing data sets with\nboxplots. Educational Studies in Mathematics, 120(1),\n169–193. https://doi.org/10.1007/s10649-025-10387-z\n\n\nKim, J., Hong, L., & Yoon, A. (2025). University\nstudents’ self-assessment of data literacy: A validation\nstudy. PLoS One, 20(4), e0322104. https://doi.org/10.1371/journal.pone.0322104\n\n\nKnuth, D. E. (1984). Literate programming. Comput. J.,\n27(2), 97–111. https://doi.org/10.1093/comjnl/27.2.97",
     "crumbs": [
       "References"
     ]

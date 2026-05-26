@@ -1,5 +1,7 @@
-# Capítulo 1: Algunos códigos en LaTeX
+# Capítulo 1: Aprendiendo referencias
 
-afsd asfd
+Insertar una cita @kim2025, blablabla
 
-Escrito con laateex $$\LaTeX$$ Latex en línea $\LaTeX$
+o
+
+cita de la literatura [@kim2025]
