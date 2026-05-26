@@ -8,6 +8,21 @@ See @abt2025 para saber sobre blablablblabal
 
 Por acá tengo algún otro archivo @kim2025 para
 
-```{r}
-1 + 1
+```latex
+$$
+\begin{align*}
+f(x) &= ax^2 + bx + c \\
+ &= 2ax + b \\
+ &= 2a
+\end{align*}
+$$
 ```
+
+
+$$
+\begin{align*}
+f(x) &= ax^2 + bx + c \\
+ &= 2ax + b \\
+ &= 2a
+\end{align*}
+$$

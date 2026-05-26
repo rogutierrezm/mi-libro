@@ -1,8 +1,8 @@
 {
-  "hash": "e4009c2c39dec0b64891c40e1cc04db9",
+  "hash": "23748ccf72d7e2743dd96d7f323c0e70",
   "result": {
     "engine": "knitr",
-    "markdown": "# Introducción\n\nThis is a book created from markdown and executable code.\n\nSee @knuth84 for additional discussion of literate programming.\n\nSee @abt2025 para saber sobre blablablblabal\n\nPor acá tengo algún otro archivo @kim2025 para\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n",
+    "markdown": "# Introducción\n\nThis is a book created from markdown and executable code.\n\nSee @knuth84 for additional discussion of literate programming.\n\nSee @abt2025 para saber sobre blablablblabal\n\nPor acá tengo algún otro archivo @kim2025 para\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\n\n$$\n\\begin{align*}\nf(x) &= ax^2 + bx + c \\\\\n &= 2ax + b \\\\\n &= 2a\n\\end{align*}\n$$",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
