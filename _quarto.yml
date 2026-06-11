@@ -10,6 +10,7 @@ book:
     - index.qmd
     - 01-introduccion.qmd
     - 02-capitulo-uno.qmd
+    - 03-alvi.qmd
     - summary.qmd
     - references.qmd
 
@@ -19,6 +20,7 @@ csl: apa.csl
 format:
   html:
     respect-user-color-scheme: true
+    css: styles.css
     theme:
       light:
       - cosmo

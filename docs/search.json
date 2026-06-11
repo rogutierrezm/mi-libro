@@ -30,13 +30,23 @@
     ]
   },
   {
+    "objectID": "03-alvi.html",
+    "href": "03-alvi.html",
+    "title": "3  Alvi",
+    "section": "",
+    "text": "Este gráfico está hecho con ploty, incluye los pesos del Alvi en las semanas siguientes de nacer.\n\n\n\n\n\n\n\n\nFigure 3.1: Evolución del peso de Alvi",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Alvi</span>"
+    ]
+  },
+  {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "3  Summary",
+    "title": "4  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {

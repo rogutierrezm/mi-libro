@@ -1,0 +1,27 @@
+.plotly .main-svg {
+  background: transparent !important;
+}
+
+.plotly .gtitle,
+.plotly .xtitle,
+.plotly .ytitle,
+.plotly .xtick text,
+.plotly .ytick text,
+.plotly .annotation-text,
+.plotly .legend text {
+  fill: var(--bs-body-color) !important;
+}
+
+.plotly .gridlayer path {
+  stroke: var(--bs-border-color) !important;
+  opacity: 0.45 !important;
+}
+
+.plotly .hovertext path {
+  fill: var(--bs-body-bg) !important;
+  stroke: var(--bs-border-color) !important;
+}
+
+.plotly .hovertext text {
+  fill: var(--bs-body-color) !important;
+}

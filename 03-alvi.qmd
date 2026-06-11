@@ -1,0 +1,162 @@
+# Alvi
+
+Este gráfico está hecho con ploty, incluye los pesos del Alvi en las semanas siguientes de nacer.
+
+```{r}
+#| label: fig-peso-alvi
+#| echo: false
+#| message: false
+#| warning: false
+#| fig-cap: "Evolución del peso de Alvi"
+
+library(tidyverse)
+library(lubridate)
+library(plotly)
+
+pesos <- tibble(
+  fecha = dmy(c(
+    "28-01-2026",
+    "02-02-2026",
+    "03-02-2026",
+    "05-02-2026",
+    "11-02-2026",
+    "19-02-2026",
+    "23-02-2026",
+    "25-02-2026",
+    "17-03-2026",
+    "20-04-2026",
+    "10-06-2026"
+  )),
+  peso_kg = c(
+    3.465, 3.630, 3.630, 3.720, 4.010, 4.320,
+    4.355, 4.455, 5.100, 6.010, 6.840
+  ),
+  talla_cm = c(
+    NA, NA, NA, NA, NA, NA,
+    58, NA, NA, 63, 67
+  ),
+  pc_cm = c(
+    NA, NA, NA, NA, NA, NA,
+    38, NA, NA, NA, NA
+  )
+)
+
+pesos <- pesos %>%
+  arrange(fecha) %>%
+  mutate(
+    dias_desde_inicio = as.numeric(fecha - first(fecha)),
+    semanas = dias_desde_inicio / 7,
+    dias_desde_anterior = as.numeric(fecha - lag(fecha)),
+    ganancia_g = (peso_kg - lag(peso_kg)) * 1000,
+    ganancia_g_dia = ganancia_g / dias_desde_anterior,
+    tooltip = paste0(
+      "<b>Fecha:</b> ", format(fecha, "%d-%m-%Y"), "<br>",
+      "<b>Edad:</b> ", round(semanas, 1), " semanas<br>",
+      "<b>Peso:</b> ", round(peso_kg, 3), " kg<br>",
+      if_else(
+        is.na(talla_cm),
+        "",
+        paste0("<b>Talla:</b> ", talla_cm, " cm<br>")
+      ),
+      if_else(
+        is.na(pc_cm),
+        "",
+        paste0("<b>Perímetro cefálico:</b> ", pc_cm, " cm<br>")
+      ),
+      "<b>Ganancia desde control anterior:</b> ",
+      if_else(is.na(ganancia_g), "—", paste0(round(ganancia_g), " g")),
+      "<br>",
+      "<b>Promedio diario:</b> ",
+      if_else(is.na(ganancia_g_dia), "—", paste0(round(ganancia_g_dia, 1), " g/día"))
+    )
+  )
+
+ultimo <- pesos %>% slice_tail(n = 1)
+
+subtitulo <- paste0(
+  "Último registro: ",
+  round(ultimo$peso_kg, 2),
+  " kg a las ",
+  round(ultimo$semanas, 1),
+  " semanas"
+)
+
+plot_ly(
+  data = pesos,
+  x = ~semanas,
+  y = ~peso_kg,
+  type = "scatter",
+  mode = "lines+markers",
+  text = ~tooltip,
+  hoverinfo = "text",
+  line = list(
+    width = 3,
+    shape = "spline",
+    smoothing = 0.65
+  ),
+  marker = list(
+    size = 8,
+    opacity = 0.9,
+    line = list(width = 1.5)
+  )
+) %>%
+  add_trace(
+    data = ultimo,
+    x = ~semanas,
+    y = ~peso_kg,
+    type = "scatter",
+    mode = "markers+text",
+    text = ~paste0(round(peso_kg, 2), " kg"),
+    textposition = "top center",
+    hoverinfo = "skip",
+    marker = list(
+      size = 14,
+      line = list(width = 2)
+    ),
+    showlegend = FALSE
+  ) %>%
+  layout(
+    title = list(
+      text = paste0(
+        "Evolución del peso",
+        "<br><sup>", subtitulo, "</sup>"
+      ),
+      x = 0,
+      xanchor = "left"
+    ),
+    xaxis = list(
+      title = "Edad aproximada (semanas)",
+      zeroline = FALSE,
+      showgrid = TRUE,
+      ticksuffix = " sem"
+    ),
+    yaxis = list(
+      title = "Peso (kg)",
+      zeroline = FALSE,
+      showgrid = TRUE,
+      ticksuffix = " kg",
+      range = c(
+        floor(min(pesos$peso_kg) * 10) / 10 - 0.1,
+        ceiling(max(pesos$peso_kg) * 10) / 10 + 0.3
+      )
+    ),
+    hovermode = "closest",
+    showlegend = FALSE,
+    margin = list(l = 70, r = 30, t = 90, b = 70),
+    paper_bgcolor = "rgba(0,0,0,0)",
+    plot_bgcolor = "rgba(0,0,0,0)",
+    hoverlabel = list(
+      align = "left",
+      bordercolor = "rgba(120,120,120,0.45)"
+    )
+  ) %>%
+  config(
+    displaylogo = FALSE,
+    modeBarButtonsToRemove = c(
+      "select2d",
+      "lasso2d",
+      "autoScale2d",
+      "toggleSpikelines"
+    )
+  )
+```
